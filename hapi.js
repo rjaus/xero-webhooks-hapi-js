@@ -2,7 +2,6 @@
  
 const hapi = require('hapi')
 const crypto = require('crypto')
-const utf8 = require('utf8')
  
 // Set the server to launch on localhost:3000
 const server = hapi.server({ host: 'localhost', port: 3000 })
